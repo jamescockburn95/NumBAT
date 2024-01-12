@@ -54,7 +54,7 @@ PYINCCORE = /usr/include/python$(PYVERMAJMIN)
 
 
 MATHINC = $(ARPACK_INCL)
-MATHLIB = $(ARPACK_LIB) $(UMFPACK)_LIB -llapack -lblas
+MATHLIB = $(ARPACK_LIB) $(UMFPACK_LIB) -llapack -lblas
 GENLIB = -lrt
 
 NUMPYDIR = $(PYROOT)/dist-packages/numpy
