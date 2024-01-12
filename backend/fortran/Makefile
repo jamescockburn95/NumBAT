@@ -6,8 +6,8 @@ all: $(NumBAT_MOD).so
 
 ## Choose your platform
 
-MYPLAT="linux_inteloneapi"
-#MYPLAT="linux_vanilla"
+#MYPLAT="linux_inteloneapi"
+MYPLAT="linux_vanilla"
 #MYPLAT="MacOS"
 #MYPLAT="myplatform"
 
