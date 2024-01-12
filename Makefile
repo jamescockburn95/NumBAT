@@ -11,6 +11,7 @@ installdeps:
 	sudo apt install python3-matplotlib
 	sudo apt-get update
 	sudo apt-get install libarpack2-dev
+	sudo apt-get install python3-psutil
 	# 
 	# arpack-ng
 	# suitesparse umfpack
