@@ -36,7 +36,7 @@ keep_plots_open = False
 # TODO: make this some kind of global numbat setting and get it out of the startup space
 try:
     # Will load from ~/.config/matplotlib/NumBATstyle.mplstyle if found
-    plt.style.use('NumBATstyle')
+    plt.style.use('../backend/NumBATstyle.mplstyle')
 except (ValueError, IOError, AttributeError):
     print("Preferred NumBAT matplotlib style file not found. Using matplotlib defaults.")
 mycolors = [color['color'] for color in list(plt.rcParams['axes.prop_cycle'])]
